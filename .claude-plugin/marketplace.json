@@ -1,0 +1,14 @@
+{
+  "name": "computefirst",
+  "owner": {
+    "name": "ComputeFirst"
+  },
+  "description": "ComputeFirst deterministic computation skill and MCP connection for autonomous agents.",
+  "plugins": [
+    {
+      "name": "computefirst",
+      "source": "./",
+      "description": "Search versioned deterministic tools, inspect their contracts, and execute with no API key."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "computefirst",
+  "version": "1.0.0",
+  "description": "Agent skill and remote MCP connection for contract-checked deterministic computation with ComputeFirst.",
+  "author": {
+    "name": "ComputeFirst"
+  },
+  "homepage": "https://computefirst.net",
+  "license": "MIT"
+}
