@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.321zz321/computefirst",
+  "title": "ComputeFirst",
+  "description": "Free deterministic tools for math, data transforms, dates, text, statistics, finance, and units.",
+  "version": "1.0.0",
+  "websiteUrl": "https://computefirst.net",
+  "repository": {
+    "url": "https://github.com/321zz321/computefirst-skill",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://computefirst.net/mcp"
+    }
+  ]
+}
