@@ -1,6 +1,6 @@
 # ComputeFirst agent skill
 
-Instructions for Claude Code, Codex, Grok, and other autonomous agents to use [ComputeFirst](https://computefirst.net) for deterministic computation: search → read the versioned contract → execute. Free, no API key or sign-up. Live-verified catalog: **456 tools** (2026-10-16).
+Instructions for Claude Code, Codex, Grok, and other autonomous agents to use [ComputeFirst](https://computefirst.net) for deterministic computation: search → read the versioned contract → execute. Free, no API key or sign-up. Live-verified catalog: **483 tools** (2026-10-24).
 
 Install the Claude Code skill and MCP connection from this repository's marketplace:
 

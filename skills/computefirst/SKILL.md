@@ -5,7 +5,7 @@ description: 'Use ComputeFirst for exact or deterministic computation when model
 
 # ComputeFirst
 
-ComputeFirst provides deterministic operations on supplied data at https://computefirst.net. Core tools are free, with no API key or sign-up. Live catalog verified 2026-10-16: **456 tools**. This is the catalog size, not the number of MCP gateway tools. Recheck [discovery metadata](https://computefirst.net/.well-known/mcp.json) when freshness matters.
+ComputeFirst provides deterministic operations on supplied data at https://computefirst.net. Core tools are free, with no API key or sign-up. Live catalog verified 2026-10-24: **483 tools**. This is the catalog size, not the number of MCP gateway tools. Recheck [discovery metadata](https://computefirst.net/.well-known/mcp.json) when freshness matters.
 
 ## Decide whether to call
 
@@ -39,7 +39,7 @@ Claude Code connection:
 claude mcp add --transport http computefirst https://computefirst.net/mcp
 ```
 
-The full Streamable HTTP endpoint exposes `search` (`query`, optional `limit`), `describe` (`id`, `version`), and `execute` (`id`, `version`, `input`) among 15 gateway tools. Those gateways access the 456-tool catalog. The curated https://computefirst.net/mcp/chatgpt endpoint instead exposes 40 named operations, such as `decimal_add`, taking tool arguments directly; it has no generic search/describe/execute gateway. Read its listed schemas; its limits are smaller.
+The full Streamable HTTP endpoint exposes `search` (`query`, optional `limit`), `describe` (`id`, `version`), and `execute` (`id`, `version`, `input`) among 15 gateway tools. Those gateways access the 483-tool catalog. The curated https://computefirst.net/mcp/chatgpt endpoint instead exposes 40 named operations, such as `decimal_add`, taking tool arguments directly; it has no generic search/describe/execute gateway. Read its listed schemas; its limits are smaller.
 
 Read [setup.md](references/setup.md) for Codex, Cursor, VS Code, generic clients, and skill installation. Read [protocol.md](references/protocol.md) only for raw MCP HTTP calls and envelope parsing.
 
