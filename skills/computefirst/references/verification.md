@@ -4,11 +4,11 @@ Snapshot date: 2026-10-16. Requests used Node fetch or curl against the live HTT
 
 | Surface | Evidence obtained |
 | --- | --- |
-| [`/llms.txt`](https://computefirst.net/llms.txt) | HTTP 200; free, no key/sign-up; discovery flow; 483 catalog tools. |
-| [`/.well-known/mcp.json`](https://computefirst.net/.well-known/mcp.json) | HTTP 200; `catalog.toolCount` 483; Streamable HTTP endpoint; authentication not required. |
+| [`/llms.txt`](https://computefirst.net/llms.txt) | HTTP 200; free, no key/sign-up; discovery flow; 516 catalog tools. |
+| [`/.well-known/mcp.json`](https://computefirst.net/.well-known/mcp.json) | HTTP 200; `catalog.toolCount` 516; Streamable HTTP endpoint; authentication not required. |
 | [`/openapi.json`](https://computefirst.net/openapi.json) | HTTP 200; search parameters, versioned contract/execute paths, error statuses, batch schema. |
-| [`/v1/stats`](https://computefirst.net/v1/stats) | HTTP 200; `tools` 483. |
-| [`/llms-full.txt`](https://computefirst.net/llms-full.txt) | HTTP 200; 483 versioned catalog entries counted. |
+| [`/v1/stats`](https://computefirst.net/v1/stats) | HTTP 200; `tools` 516. |
+| [`/llms-full.txt`](https://computefirst.net/llms-full.txt) | HTTP 200; 516 versioned catalog entries counted. |
 | [`/mcp`](https://computefirst.net/mcp) | Initialize 200, initialized notification 202; tools/list 200 with 15 gateway tools; search, describe, execute succeeded. Numeric decimal input returned HTTP 200 with `isError: true`. |
 | [`/mcp/chatgpt`](https://computefirst.net/mcp/chatgpt) | Initialize 200, initialized notification 202; tools/list 200 with 40 named tools; decimal_add succeeded. Oversized arguments returned `curated_input_limit`. |
 | `/v1/tools/search?q=…` | All six exact example ids discovered at version 1.0.0; unknown synthetic task returned empty results. Oversized query returned 400. |
