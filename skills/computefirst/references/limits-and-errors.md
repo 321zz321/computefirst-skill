@@ -14,7 +14,7 @@ Read the selected version's contract before relying on any bound. The live [serv
 | Hosted connectors | Published claude.ai and ChatGPT connector egress ranges use 7,500 per platform/day and a combined 10,000/day, inside the no-key pool. |
 | Batch | 1–20 operations. Each resolved input, individual result, and aggregate response is limited to 256 KiB. Work budgets can refuse additional operations. |
 
-The 774-tool catalog does not imply every tool is available through the 40-tool curated endpoint. A contract's large output allowance also does not override a smaller batch or transport bound.
+The 765-tool catalog does not imply every tool is available through the 40-tool curated endpoint. A contract's large output allowance also does not override a smaller batch or transport bound.
 
 Selected example-specific bounds:
 
