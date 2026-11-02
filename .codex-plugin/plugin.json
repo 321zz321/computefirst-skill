@@ -38,6 +38,7 @@
       "Use ComputeFirst to validate this IBAN.",
       "Use ComputeFirst to add 30 business days to this date.",
       "Use ComputeFirst to convert this CSV to JSON."
-    ]
+    ],
+    "composerIcon": "./assets/icon.svg"
   }
 }
