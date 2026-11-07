@@ -7,8 +7,8 @@ Snapshot date: 2026-10-16. Requests used Node fetch or curl against the live HTT
 | [`/llms.txt`](https://computefirst.net/llms.txt) | HTTP 200; free, no key/sign-up; discovery flow; 859 catalog tools. |
 | [`/.well-known/mcp.json`](https://computefirst.net/.well-known/mcp.json) | HTTP 200; `catalog.toolCount` 859; Streamable HTTP endpoint; authentication not required. |
 | [`/openapi.json`](https://computefirst.net/openapi.json) | HTTP 200; search parameters, versioned contract/execute paths, error statuses, batch schema. |
-| [`/v1/stats`](https://computefirst.net/v1/stats) | HTTP 200; `tools` 837. |
-| [`/llms-full.txt`](https://computefirst.net/llms-full.txt) | HTTP 200; 837 versioned catalog entries counted. |
+| [`/v1/stats`](https://computefirst.net/v1/stats) | HTTP 200; `tools` 859. |
+| [`/llms-full.txt`](https://computefirst.net/llms-full.txt) | HTTP 200; 859 versioned catalog entries counted. |
 | [`/mcp`](https://computefirst.net/mcp) | Initialize 200, initialized notification 202; tools/list 200 with 15 gateway tools; search, describe, execute succeeded. Numeric decimal input returned HTTP 200 with `isError: true`. |
 | [`/mcp/chatgpt`](https://computefirst.net/mcp/chatgpt) | Initialize 200, initialized notification 202; tools/list 200 with 40 named tools; decimal_add succeeded. Oversized arguments returned `curated_input_limit`. |
 | `/v1/tools/search?q=…` | All six exact example ids discovered at version 1.0.0; unknown synthetic task returned empty results. Oversized query returned 400. |
