@@ -4,8 +4,8 @@ Snapshot date: 2026-10-16. Requests used Node fetch or curl against the live HTT
 
 | Surface | Evidence obtained |
 | --- | --- |
-| [`/llms.txt`](https://computefirst.net/llms.txt) | HTTP 200; free, no key/sign-up; discovery flow; 837 catalog tools. |
-| [`/.well-known/mcp.json`](https://computefirst.net/.well-known/mcp.json) | HTTP 200; `catalog.toolCount` 837; Streamable HTTP endpoint; authentication not required. |
+| [`/llms.txt`](https://computefirst.net/llms.txt) | HTTP 200; free, no key/sign-up; discovery flow; 859 catalog tools. |
+| [`/.well-known/mcp.json`](https://computefirst.net/.well-known/mcp.json) | HTTP 200; `catalog.toolCount` 859; Streamable HTTP endpoint; authentication not required. |
 | [`/openapi.json`](https://computefirst.net/openapi.json) | HTTP 200; search parameters, versioned contract/execute paths, error statuses, batch schema. |
 | [`/v1/stats`](https://computefirst.net/v1/stats) | HTTP 200; `tools` 837. |
 | [`/llms-full.txt`](https://computefirst.net/llms-full.txt) | HTTP 200; 837 versioned catalog entries counted. |
