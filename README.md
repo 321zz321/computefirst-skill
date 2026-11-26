@@ -28,6 +28,12 @@ Gemini CLI (this repository is also a Gemini CLI extension):
 gemini extensions install https://github.com/321zz321/computefirst-skill
 ```
 
+Antigravity CLI (installs the skill and the MCP connection):
+
+```sh
+agy plugin install https://github.com/321zz321/computefirst-skill
+```
+
 For Codex skill discovery, copy `skills/computefirst/` into `.agents/skills/computefirst/` or `~/.agents/skills/computefirst/`, preserving references. [Client setup and sources](skills/computefirst/references/setup.md) cover Claude Code, Cursor, VS Code, generic MCP clients, and plain HTTP.
 
 Read **[the skill](skills/computefirst/SKILL.md)** for selection rules, exact requests, limits, and six actual API results. [AGENTS.md](AGENTS.md) provides condensed guidance. The full MCP route exposes gateway tools; `/mcp/chatgpt` offers 40 named operations with smaller limits.
