@@ -1,0 +1,10 @@
+{
+  "name": "computefirst",
+  "version": "1.0.0",
+  "description": "Free deterministic tools for AI agents over MCP: exact CSV, JSON, text diff, UTC/ISO date, math, matrix, graph, path, URL/IP, semver, check-digit and format-conversion tools. No key, no sign-up.",
+  "mcpServers": {
+    "computefirst": {
+      "httpUrl": "https://computefirst.net/mcp"
+    }
+  }
+}
